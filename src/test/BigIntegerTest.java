@@ -26,7 +26,7 @@ public class BigIntegerTest {
 		l = big.intToChar(l);
 		r = big.intToChar(r);
 
-		char[] result = big.charToInt(big.add(l, r));
+		char[] result = big.charToInt(big.addInt(l, r));
 		System.out.println(result);
 		assertArrayEquals(rec, result);
 	}
@@ -49,7 +49,7 @@ public class BigIntegerTest {
 		l = big.intToChar(l);
 		r = big.intToChar(r);
 
-		char[] result = big.charToInt(big.sub(l, r));
+		char[] result = big.charToInt(big.subInt(l, r));
 		System.out.println(result);
 		assertArrayEquals(rec, result);
 	}
@@ -66,25 +66,12 @@ public class BigIntegerTest {
 	@Test
 	public void testMulti() {
 		BigInteger big = new BigInteger();
-		String ls = "1324230";
-		String rs = "00432";
+		String ls = "2";
+		String rs = "-5";
 
-		char[] l = ls.toCharArray();
-		char[] r = rs.toCharArray();
-
-		int li = Integer.parseInt(ls);
-		int ri = Integer.parseInt(rs);
-		int re = li * ri;
-
-		char[] rec = ("" + re).toCharArray();
-
-		l = big.intToChar(l);
-		r = big.intToChar(r);
-		System.out.println("True:" + re);
-
-		char[] result = big.charToInt(big.multi(l, r));
-		System.out.println("Now:" + String.valueOf(result));
-		assertArrayEquals(rec, result);
+		String result = big.multi(ls, rs);
+		System.out.println(result);
+		assertEquals(result, "-10");
 	}
 
 	@Test

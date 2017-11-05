@@ -9,7 +9,33 @@ import java.util.Arrays;
  */
 public class BigInteger {
 
-	public char[] multi(char[] left, char[] right) {
+	public String multi(String inta, String intb) {
+		char s1 = inta.charAt(0);
+		char s2 = intb.charAt(0);
+		char simbol = '+';
+
+		if ((s1 == '-' && s2 != '-') || (s1 != '-' && s2 == '-')) {
+			simbol = '-';
+		}
+		char[] l = inta.toCharArray();
+		char[] r = intb.toCharArray();
+
+		if (s1 == '-' || s1 == '+') {
+			l = Arrays.copyOfRange(l, 1, l.length);
+		}
+		if (s2 == '-' || s2 == '+') {
+			r = Arrays.copyOfRange(r, 1, r.length);
+		}
+
+		char[] result = charToInt(multiInt(intToChar(l), intToChar(r)));
+		String res = new String(result);
+		if (simbol == '-') {
+			return simbol + res;
+		}
+		return res;
+	}
+
+	public char[] multiInt(char[] left, char[] right) {
 		if (left.length == 1 && right.length == 1) {
 			int l = left[0];
 			int r = right[0];
@@ -31,16 +57,16 @@ public class BigInteger {
 		char[] p = Arrays.copyOf(rl, len / 2);
 		char[] q = Arrays.copyOfRange(rl, len / 2, len);
 
-		char[] mp = multi(m, p);
-		char[] nq = multi(n, q);
-		char[] mnpq = multi(add(m, n), add(p, q));
-		char[] mpnq = add(mp, nq);
-		char[] mid = sub(mnpq, mpnq);
+		char[] mp = multiInt(m, p);
+		char[] nq = multiInt(n, q);
+		char[] mnpq = multiInt(addInt(m, n), addInt(p, q));
+		char[] mpnq = addInt(mp, nq);
+		char[] mid = subInt(mnpq, mpnq);
 
-		return add(add(copyOf(mp, mp.length + len), copyOf(mid, mid.length + len / 2)), nq);
+		return addInt(addInt(copyOf(mp, mp.length + len), copyOf(mid, mid.length + len / 2)), nq);
 	}
 
-	public char[] add(char[] left, char[] right) {
+	public char[] addInt(char[] left, char[] right) {
 		char[] cl, rl;
 		if (left.length > right.length) {
 			cl = left;
@@ -84,7 +110,7 @@ public class BigInteger {
 		return cut0(result);
 	}
 
-	public char[] sub(char[] left, char[] right) {
+	public char[] subInt(char[] left, char[] right) {
 		char[] cl, rl;
 
 		cl = left;
