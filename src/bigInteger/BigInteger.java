@@ -1,13 +1,43 @@
 package bigInteger;
 
-import java.io.File;
-import java.io.IOException;
+import java.util.Arrays;
 
+/**
+ * 
+ * @author fdws
+ *
+ */
 public class BigInteger {
 
 	public char[] multi(char[] left, char[] right) {
+		if (left.length == 1 && right.length == 1) {
+			int l = left[0];
+			int r = right[0];
+			return intToChar(String.valueOf(l * r).toCharArray());
+		}
 
-		return null;
+		int len = left.length > right.length ? left.length : right.length;
+		len = len % 2 == 0 ? len : len + 1;
+		/**
+		 * cl [m:n] ----------------------------------------------------------
+		 * rl [p:q] ----------------------------------------------------------
+		 * cl*rl = m*p*10^len + [(m+n)*(p+q) - (mp+nq)]*10^(len/2) + nq
+		 */
+		char[] cl = toLength(left, len, '0');
+		char[] rl = toLength(right, len, '0');
+
+		char[] m = Arrays.copyOf(cl, len / 2);
+		char[] n = Arrays.copyOfRange(cl, len / 2, len);
+		char[] p = Arrays.copyOf(rl, len / 2);
+		char[] q = Arrays.copyOfRange(rl, len / 2, len);
+
+		char[] mp = multi(m, p);
+		char[] nq = multi(n, q);
+		char[] mnpq = multi(add(m, n), add(p, q));
+		char[] mpnq = add(mp, nq);
+		char[] mid = sub(mnpq, mpnq);
+
+		return add(add(copyOf(mp, mp.length + len), copyOf(mid, mid.length + len / 2)), nq);
 	}
 
 	public char[] add(char[] left, char[] right) {
@@ -40,7 +70,7 @@ public class BigInteger {
 		}
 
 		if (hight == 0) {
-			return result;
+			return cut0(result);
 		}
 
 		char[] result2 = new char[result.length + 1];
@@ -51,19 +81,14 @@ public class BigInteger {
 		}
 		result = result2;
 
-		return result;
+		return cut0(result);
 	}
 
 	public char[] sub(char[] left, char[] right) {
 		char[] cl, rl;
-		if (left.length > right.length) {
-			cl = left;
-			rl = right;
-		} else {
-			cl = right;
-			rl = left;
-		}
 
+		cl = left;
+		rl = right;
 		int r = rl.length;
 		int l = cl.length;
 		int hight = 0;
@@ -93,25 +118,33 @@ public class BigInteger {
 			}
 			result[l] = (char) re;
 		}
+		return cut0(result);
+	}
+
+	public char[] cut0(char[] res) {
+		if (res.length > 0 && res[0] != 0) {
+			return res;
+		}
 
 		int i = 0;
-		for (i = 0; i < result.length; i++) {
-			if (result[i] != 0) {
+		for (i = 0; i < res.length; i++) {
+			if (res[i] != 0) {
 				break;
 			}
 		}
 
-		if (i == 0) {
-			return result;
+		char[] result;
+		if (i == res.length) {
+			result = new char[1];
+			result[0] = 0;
+		} else {
+			result = new char[res.length - i];
+			for (int index = 0; index < result.length; index++) {
+				result[index] = res[index + i];
+			}
 		}
 
-		char[] result2 = new char[result.length - i];
-
-		for (int index = 0; index < result2.length; index++) {
-			result2[index] = result[index + i];
-		}
-
-		return result2;
+		return result;
 	}
 
 	public char[] toLength(char[] str, int length, char simbol) {
@@ -122,7 +155,7 @@ public class BigInteger {
 		char[] result = new char[length];
 		int sub = length - str.length;
 		for (int i = 0; i < sub; i++) {
-			result[i] = '0';
+			result[i] = 0;
 		}
 		for (int i = sub; i < result.length; i++) {
 			result[i] = str[i - sub];
@@ -138,6 +171,14 @@ public class BigInteger {
 		return ch;
 	}
 
+	public char[] copyOf(char[] arry, int len) {
+		char[] result = Arrays.copyOf(arry, len);
+		for (int i = arry.length; i < result.length; i++) {
+			result[i] = 0;
+		}
+		return result;
+	}
+
 	public char[] charToInt(char[] ch) {
 		for (int i = 0; i < ch.length; i++) {
 			ch[i] = (char) (ch[i] + '0');
@@ -145,36 +186,7 @@ public class BigInteger {
 		return ch;
 	}
 
-	public String change(byte[] b) {
-		StringBuilder ret = new StringBuilder();
-		for (int i = 0; i < b.length; i++) {
-			// System.out.println(b[i] & 0xff);
-			String hex = Integer.toHexString(b[i] & 0xFF);
-			if (hex.length() == 1) {
-				hex = "0" + hex;
-			}
-			ret.append(hex);
-		}
-		return ret.toString();
-	}
-
-	public void tt(int[] test) {
-		test[0] = '1';
-	}
-
 	public static void main(String[] args) {
-//		char[] left = "456852123456879".toCharArray();
-//		char[] right = "1789456131576".toCharArray();
-//		BigInteger big = new BigInteger();
-//
-//		System.out.println(big.charToInt(big.sub(big.intToChar(left), big.intToChar(right))));
-		File file = new File("H:/Language/JAVA/methodsAnalysis/.gitignore");
-		try {
-			file.createNewFile();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
+		// System.out.println((char) 48);
 	}
 }
