@@ -1,5 +1,8 @@
 package bigInteger;
 
+import java.io.File;
+import java.io.IOException;
+
 public class BigInteger {
 
 	public char[] multi(char[] left, char[] right) {
@@ -160,11 +163,18 @@ public class BigInteger {
 	}
 
 	public static void main(String[] args) {
-		char[] left = "456852123456879".toCharArray();
-		char[] right = "1789456131576".toCharArray();
-		BigInteger big = new BigInteger();
-
-		System.out.println(big.charToInt(big.sub(big.intToChar(left), big.intToChar(right))));
+//		char[] left = "456852123456879".toCharArray();
+//		char[] right = "1789456131576".toCharArray();
+//		BigInteger big = new BigInteger();
+//
+//		System.out.println(big.charToInt(big.sub(big.intToChar(left), big.intToChar(right))));
+		File file = new File("H:/Language/JAVA/methodsAnalysis/.gitignore");
+		try {
+			file.createNewFile();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 }
