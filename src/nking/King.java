@@ -95,8 +95,8 @@ public class King {
 		King k = new King(10);
 		long begin = System.currentTimeMillis();
 		System.out.println("Searching...");
-		k.search(true);
+		k.search(false);
 		System.out.println("Done");
-		System.out.println("Use: " + (System.currentTimeMillis() - begin)+"ms");
+		System.out.println("Use: " + (System.currentTimeMillis() - begin) + "ms");
 	}
 }
