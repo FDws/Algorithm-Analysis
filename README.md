@@ -3,3 +3,4 @@
 #### [1.  分治法实现大整数的乘法](https://github.com/FDws/Algorithm-Analysis/tree/master/src/bigInteger)
 #### [2.  动态规划实现0-1背包](https://github.com/FDws/Algorithm-Analysis/tree/master/src/knapsack)
 #### [2.  搜索法-回溯 解决n皇后问题](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nking)
+#### [2.  广度优先搜索 解决 布线问题(迷宫最短路径)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/routeProblem)
