@@ -5,3 +5,5 @@
 #### [2.  动态规划实现0-1背包](https://github.com/FDws/Algorithm-Analysis/tree/master/src/knapsack)
 #### [2.  搜索法-回溯 -- n皇后问题](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nking)
 #### [2.  搜索法-广度优先 -- 布线问题(迷宫最短路径)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/routeProblem)
+#### [2.  排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)
+        [1. 归并排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/MergeSort)
