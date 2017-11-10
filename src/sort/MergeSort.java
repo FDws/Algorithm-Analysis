@@ -35,9 +35,9 @@ public class MergeSort implements Msort {
 
 	public static void main(String[] args) {
 		int[] a = { 7, 2, 5, 1, 9, 2, 3, 0, 10 };
-		MergeSort m = new MergeSort();
+		Msort m = new MergeSort();
 		for (int x : m.sort(a)) {
-			System.out.println(x);
+			System.out.print(x + " ");
 		}
 	}
 
