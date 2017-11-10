@@ -41,32 +41,25 @@ public class Knapsack01 {
 	public void show() {
 		int w = weight - 1;
 		int g = pack.length - 1;
-		while (g >= 0 && w >= 0) {
+		while (g >= 0) {
 			if (g == 0) {
 				if (pack[g][w] > 0) {
-					System.out.println("<" + info.get(g)[0] + ", " + info.get(g)[1] + ">");
+					System.out.println("No." + g + " <" + info.get(g)[0] + ", " + info.get(g)[1] + ">");
 				}
 				break;
 			}
 			if (pack[g][w] > pack[g - 1][w]) {
-				System.out.println("<" + info.get(g)[0] + ", " + info.get(g)[1] + ">");
+				System.out.println("No." + g + " <" + info.get(g)[0] + ", " + info.get(g)[1] + ">");
 				w = w - info.get(g)[1];
-				g--;
-			} else {
-				w--;
-				g--;
 			}
+			g--;
 		}
 	}
 
 	public static void main(String[] args) {
 		List<int[]> list = new LinkedList<>();
 		// value-weight
-		int[] p = { 6, 2, 
-					3, 2, 
-					5, 6, 
-					4, 5, 
-					6, 4 };
+		int[] p = { 6, 2, 3, 2, 5, 6, 4, 5, 6, 4 };
 
 		for (int i = 0; i < p.length;) {
 			int[] goods = new int[2];
