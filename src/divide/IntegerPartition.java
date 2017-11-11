@@ -1,4 +1,4 @@
-package partition;
+package divide;
 
 public class IntegerPartition {
 	public static int partition(int number, int part) {
