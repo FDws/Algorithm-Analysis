@@ -1,4 +1,4 @@
-package routeProblem;
+package route;
 
 import java.util.LinkedList;
 import java.util.Queue;
