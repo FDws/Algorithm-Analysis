@@ -5,6 +5,7 @@ import java.util.Arrays;
 /**
  * 
  * @author fdws
+ * @title 分治法解决大数乘法
  *
  */
 public class BigInteger {
@@ -213,6 +214,7 @@ public class BigInteger {
 	}
 
 	public static void main(String[] args) {
-		// System.out.println((char) 48);
+		BigInteger big = new BigInteger();
+		System.out.println(big.multi("12000", "20000"));
 	}
 }
