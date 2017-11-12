@@ -1,5 +1,8 @@
 package divide;
-
+/*
+ * @author FDws
+ * @title 整数分割
+ */
 public class IntegerPartition {
 	public static int partition(int number, int part) {
 		if (number <= 0 || part <= 0) {
