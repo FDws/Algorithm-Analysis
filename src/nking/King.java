@@ -1,98 +1,71 @@
 package nking;
 
 public class King {
-	// private int number = 0;
-	private int[][] position = null;
 	private int count;
-	private boolean showPosition = false;
+	private int[] pos = null;
+	private boolean showPanel = false;
 
 	public King(int number) {
-		// this.number = number;
-		position = new int[number][number];
+		pos = new int[number];
+		for (int i = 0; i < pos.length; i++) {
+			pos[i] = -1;
+		}
 		count = 0;
 	}
 
 	public boolean isLegal(int x, int y) {
 		int i;
-		int j;
-		/**
-		 * up -- down
-		 */
-		for (j = y, i = 0; i < x; i++) {
-			if (position[i][j] == 1) {
+		for (i = 0; i < x; i++) {
+			if (pos[i] == y || (Math.abs(x - i) == Math.abs(y - pos[i]))) {
 				return false;
 			}
 		}
-		/**
-		 * left-up -- right-down
-		 */
-		int temp = x > y ? y : x;
-		i = x - temp;
-		j = y - temp;
-		for (; i < x && j < y; i++, j++) {
-			if (position[i][j] == 1) {
-				return false;
-			}
-		}
-		/**
-		 * right-up -- left-down
-		 */
-		temp = position.length - 1 - y > x ? x : position.length - 1 - y;
-		i = x - temp;
-		j = y + temp;
-		for (; i < x && j > y; i++, j--) {
-			if (position[i][j] == 1) {
-				return false;
-			}
-		}
-
 		return true;
+
 	}
 
-	private boolean search(int deepth) {
-		if (deepth == position.length) {
-			return true;
-		}
-
-		int i;
-		for (i = 0; i < position.length; i++) {
-			if (isLegal(deepth, i)) {
-				position[deepth][i] = 1;
-				if (deepth == position.length - 1) {
-					count++;
-					if (showPosition) {
-						show();
-					}
-					position[deepth][i] = 0;
-				}
-				if (!search(deepth + 1)) {
-					position[deepth][i] = 0;
-				}
+	private void search(int deepth) {
+		if (deepth >= pos.length) {
+			count++;
+			if (showPanel) {
+				show();
 			}
+			return;
 		}
-		return false;
+		for (int i = 0; i < pos.length; i++) {
+			if (isLegal(deepth, i)) {
+				pos[deepth] = i;
+				search(deepth + 1);
+			}
+			pos[deepth] = 0;
+		}
 	}
 
 	private void show() {
-		int i;
-		int j;
-		System.out.println("\n" + count);
-		for (i = 0; i < position.length; i++) {
-			for (j = 0; j < position.length; j++) {
-				System.out.print(position[i][j] + " ");
+		System.out.println("Count: " + count);
+		for (int i = 0; i < pos.length; i++) {
+
+			for (int j = 0; j < pos.length; j++) {
+				if (j == pos[i]) {
+					System.out.print("1 ");
+				} else {
+					System.out.print("0 ");
+				}
 			}
 			System.out.println();
 		}
+		System.out.println();
 	}
 
 	public void search(boolean showPosition) {
-		this.showPosition = showPosition;
+		this.showPanel = showPosition;
 		search(0);
 		System.out.println("Count:" + count);
 	}
 
 	public static void main(String[] args) {
-		King k = new King(10);
+		int number = 15;
+		King k = new King(number);
 		long begin = System.currentTimeMillis();
 		System.out.println("Searching...");
 		k.search(false);
