@@ -110,7 +110,7 @@ public class ProjectFile {
 			toLen(deepth, '#', sb);
 			sb.append(" ");
 		}
-		sb.append("*[");
+		sb.append("[");
 		sb.append(title);
 		sb.append("](");
 		sb.append(prefix);
