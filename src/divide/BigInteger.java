@@ -1,13 +1,14 @@
 package divide;
 
-import java.util.Arrays;
-
 /**
  * 
- * @author fdws
+ * @author FDws
  * @title 分治法解决大数乘法
  *
  */
+import java.util.Arrays;
+
+
 public class BigInteger {
 
 	public String multi(String inta, String intb) {

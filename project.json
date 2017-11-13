@@ -1,0 +1,79 @@
+{
+  "title" : "Algorithm-Analysis  几种经典算法",
+  "children" : {
+    "bfs" : {
+      "title" : "广度优先搜索",
+      "children" : {
+        "RouteProblem.java" : {
+          "title" : "布线问题",
+          "children" : null
+        }
+      }
+    },
+    "dfs" : {
+      "title" : "深度优先搜索",
+      "children" : {
+        "King.java" : {
+          "title" : "n皇后问题",
+          "children" : null
+        }
+      }
+    },
+    "divide" : {
+      "title" : "分治法",
+      "children" : {
+        "BigInteger.java" : {
+          "title" : "分治法解决大数乘法",
+          "children" : null
+        },
+        "CoverChessBoard.java" : {
+          "title" : "棋盘覆盖",
+          "children" : null
+        },
+        "IntegerPartition.java" : {
+          "title" : "整数分割",
+          "children" : null
+        }
+      }
+    },
+    "dp" : {
+      "title" : "动态规划",
+      "children" : {
+        "Knapsack01.java" : {
+          "title" : "0-1背包",
+          "children" : null
+        }
+      }
+    },
+    "sort" : {
+      "title" : "排序",
+      "children" : {
+        "MergeSort.java" : {
+          "title" : "归并排序",
+          "children" : null
+        },
+        "Msort.java" : {
+          "title" : "",
+          "children" : null
+        },
+        "QuickSort.java" : {
+          "title" : "快速排序",
+          "children" : null
+        }
+      }
+    },
+    "tools" : {
+      "title" : "工具",
+      "children" : {
+        "Project.java" : {
+          "title" : "生成本项目的README文件",
+          "children" : null
+        },
+        "ProjectFile.java" : {
+          "title" : "项目文件类",
+          "children" : null
+        }
+      }
+    }
+  }
+}

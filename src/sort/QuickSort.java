@@ -1,5 +1,8 @@
 package sort;
-
+/**
+ * @author FDws
+ * @title 快速排序
+ */
 import java.util.Arrays;
 
 public class QuickSort implements Msort {

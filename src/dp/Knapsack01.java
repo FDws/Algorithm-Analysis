@@ -1,5 +1,8 @@
-package knapsack;
-
+package dp;
+/**
+ * @author FDws
+ * @title 0-1背包
+ */
 import java.util.LinkedList;
 import java.util.List;
 

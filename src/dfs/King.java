@@ -1,5 +1,10 @@
-package nking;
-
+package dfs;
+/**
+ * 
+ * @author FDws
+ * @title n皇后问题
+ *
+ */
 public class King {
 	private int count;
 	private int[] pos = null;

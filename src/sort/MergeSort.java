@@ -1,5 +1,8 @@
 package sort;
-
+/**
+ * @author FDws
+ * @title 归并排序
+ */
 import java.util.Arrays;
 
 public class MergeSort implements Msort {

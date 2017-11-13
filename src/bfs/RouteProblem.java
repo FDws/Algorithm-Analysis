@@ -1,5 +1,9 @@
-package route;
+package bfs;
 
+/**
+ * @author FDws
+ * @title 布线问题
+ */
 import java.util.LinkedList;
 import java.util.Queue;
 
