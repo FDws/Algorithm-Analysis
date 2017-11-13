@@ -105,16 +105,16 @@ public class ProjectFile {
 	public void write(int deepth, String prefix, BufferedWriter writer) {
 		StringBuilder sb = new StringBuilder();
 		if (children == null) {
-			sb.append('>');
+			sb.append("> ");
 		} else {
 			toLen(deepth, '#', sb);
-
+			sb.append(" ");
 		}
 		sb.append("*[");
 		sb.append(title);
 		sb.append("](");
 		sb.append(prefix);
-		sb.append(")\\<br>");
+		sb.append(")\t\t");
 		sb.append("\n\n");
 
 		try {
