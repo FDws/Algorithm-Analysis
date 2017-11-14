@@ -45,6 +45,15 @@
         }
       }
     },
+    "greedy" : {
+      "title" : "贪心算法",
+      "children" : {
+        "HuffmanCode.java" : {
+          "title" : "Huffman 编码",
+          "children" : null
+        }
+      }
+    },
     "sort" : {
       "title" : "排序",
       "children" : {

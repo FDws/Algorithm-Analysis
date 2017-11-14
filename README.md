@@ -20,6 +20,10 @@
 
 > [0-1背包](https://github.com/FDws/Algorithm-Analysis/tree/master/src/dp/Knapsack01.java)		
 
+## [贪心算法](https://github.com/FDws/Algorithm-Analysis/tree/master/src/greedy)		
+
+> [Huffman 编码](https://github.com/FDws/Algorithm-Analysis/tree/master/src/greedy/HuffmanCode.java)		
+
 ## [排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)		
 
 > [归并排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/MergeSort.java)		
