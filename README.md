@@ -32,6 +32,8 @@
 
 > [快速排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/QuickSort.java)		
 
+> [选择排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/SelectionSort.java)		
+
 ## [工具](https://github.com/FDws/Algorithm-Analysis/tree/master/src/tools)		
 
 > [生成本项目的README文件](https://github.com/FDws/Algorithm-Analysis/tree/master/src/tools/Project.java)		

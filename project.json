@@ -68,6 +68,10 @@
         "QuickSort.java" : {
           "title" : "快速排序",
           "children" : null
+        },
+        "SelectionSort.java" : {
+          "title" : "选择排序",
+          "children" : null
         }
       }
     },
