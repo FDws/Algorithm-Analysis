@@ -51,6 +51,10 @@
         "HuffmanCode.java" : {
           "title" : "Huffman 编码",
           "children" : null
+        },
+        "Prim.java" : {
+          "title" : "最小生成树Prim算法",
+          "children" : null
         }
       }
     },

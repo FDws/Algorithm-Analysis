@@ -24,6 +24,8 @@
 
 > [Huffman 编码](https://github.com/FDws/Algorithm-Analysis/tree/master/src/greedy/HuffmanCode.java)		
 
+> [最小生成树Prim算法](https://github.com/FDws/Algorithm-Analysis/tree/master/src/greedy/Prim.java)		
+
 ## [排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)		
 
 > [归并排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/MergeSort.java)		
