@@ -28,6 +28,8 @@
 
 ## [排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)		
 
+> [冒泡排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/BubbleSort.java)		
+
 > [归并排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/MergeSort.java)		
 
 > [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/Msort.java)		

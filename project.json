@@ -61,6 +61,10 @@
     "sort" : {
       "title" : "排序",
       "children" : {
+        "BubbleSort.java" : {
+          "title" : "冒泡排序",
+          "children" : null
+        },
         "MergeSort.java" : {
           "title" : "归并排序",
           "children" : null
