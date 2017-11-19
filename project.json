@@ -58,6 +58,19 @@
         }
       }
     },
+    "leetcode" : {
+      "title" : "LeetCode题目",
+      "children" : {
+        "AddTwoNumbers.java" : {
+          "title" : "AddTwoNumbers",
+          "children" : null
+        },
+        "TwoSum.java" : {
+          "title" : "TwoSum",
+          "children" : null
+        }
+      }
+    },
     "sort" : {
       "title" : "排序",
       "children" : {
