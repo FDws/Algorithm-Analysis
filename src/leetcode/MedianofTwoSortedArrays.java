@@ -3,7 +3,7 @@ package leetcode;
 /**
  * @author FDws
  * @date 2017年11月20日 下午8:14:17
- * @title MedianofTwoSortedArrays
+ * @title Median of Two Sorted Arrays
  */
 public class MedianofTwoSortedArrays {
 

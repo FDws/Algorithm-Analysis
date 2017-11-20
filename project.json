@@ -69,6 +69,10 @@
           "title" : "Longest Substring Without Repeating Characters",
           "children" : null
         },
+        "MedianofTwoSortedArrays.java" : {
+          "title" : "Median of Two Sorted Arrays",
+          "children" : null
+        },
         "TwoSum.java" : {
           "title" : "TwoSum",
           "children" : null
