@@ -30,6 +30,8 @@
 
 > [AddTwoNumbers](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/AddTwoNumbers.java)		
 
+> [Longest Palindromic Substring](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LongestPalindromicSubstring.java)		
+
 > [Longest Substring Without Repeating Characters](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LSWRC.java)		
 
 > [Median of Two Sorted Arrays](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MedianofTwoSortedArrays.java)		

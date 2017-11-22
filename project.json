@@ -65,6 +65,10 @@
           "title" : "AddTwoNumbers",
           "children" : null
         },
+        "LongestPalindromicSubstring.java" : {
+          "title" : "Longest Palindromic Substring",
+          "children" : null
+        },
         "LSWRC.java" : {
           "title" : "Longest Substring Without Repeating Characters",
           "children" : null
