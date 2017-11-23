@@ -6,46 +6,47 @@ package leetcode;
  * @title Longest Palindromic Substring
  */
 public class LongestPalindromicSubstring {
+	private int start = 0;
+	private int length = 1;
+	private char[] arry = null;
+	private int arLen = 0;
+
 	public String longestPalindrome(String s) {
 		if (s.length() == 0) {
 			return "";
 		}
-		String max = "";
-		for (int i = 0; i < s.length(); i++) {
+		arLen = s.length();
+		arry = s.toCharArray();
+
+		for (int i = 0; i < arLen; i++) {
 			int r = i + 1;
-			while (r < s.length() && s.charAt(i) == s.charAt(r)) {
+			while (r < arLen && arry[i] == arry[r]) {
 				r++;
 			}
-
-			String res = search(s, i, r - 1);
-
-			if (res.length() > max.length()) {
-				max = res;
-			}
+			search(i, r - 1);
 			i = r - 1;
 		}
-
-		return max;
+		return s.substring(start, start + length);
 	}
 
-	public String search(String origin, int left, int right) {
-		int l = left;
-		int r = right;
+	public void search(int left, int right) {
+		int l = left - 1;
+		int r = right + 1;
 
-		for (; l >= 0 && r < origin.length(); l--, r++) {
-			if (origin.charAt(l) != origin.charAt(r)) {
+		for (; l >= 0 && r < arLen; l--, r++) {
+			if (arry[l] != arry[r]) {
 				break;
 			}
 		}
 
-		return origin.substring(l + 1, r);
+		if (r - l - 1 > length) {
+			start = l + 1;
+			length = r - start;
+		}
 	}
 
 	public static void main(String[] args) {
 		LongestPalindromicSubstring l = new LongestPalindromicSubstring();
-		System.out.println(l.search("cbbd", 1, 2));
 		System.out.println(l.longestPalindrome("babad"));
-		System.out.println(l.longestPalindrome("cbbd"));
-		System.out.println(l.longestPalindrome("a"));
 	}
 }
