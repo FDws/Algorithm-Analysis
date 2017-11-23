@@ -6,6 +6,7 @@ package leetcode;
  * @title Longest Palindromic Substring
  */
 public class LongestPalindromicSubstring {
+
 	private int start = 0;
 	private int length = 1;
 	private char[] arry = null;
