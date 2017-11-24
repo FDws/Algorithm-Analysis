@@ -77,6 +77,10 @@
           "title" : "Median of Two Sorted Arrays",
           "children" : null
         },
+        "ReverseInteger.java" : {
+          "title" : "Reverse Integer",
+          "children" : null
+        },
         "TwoSum.java" : {
           "title" : "TwoSum",
           "children" : null
