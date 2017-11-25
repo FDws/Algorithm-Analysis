@@ -38,6 +38,8 @@
 
 > [Reverse Integer](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ReverseInteger.java)		
 
+> [String to Integer (atoi)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/StringtoInteger.java)		
+
 > [TwoSum](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/TwoSum.java)		
 
 > [ZigZag Conversion](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ZigZagConversion.java)		
