@@ -77,6 +77,10 @@
           "title" : "Median of Two Sorted Arrays",
           "children" : null
         },
+        "PalindromeNumber.java" : {
+          "title" : "Palindrome Number",
+          "children" : null
+        },
         "ReverseInteger.java" : {
           "title" : "Reverse Integer",
           "children" : null

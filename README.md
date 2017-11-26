@@ -36,6 +36,8 @@
 
 > [Median of Two Sorted Arrays](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MedianofTwoSortedArrays.java)		
 
+> [Palindrome Number](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/PalindromeNumber.java)		
+
 > [Reverse Integer](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ReverseInteger.java)		
 
 > [String to Integer (atoi)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/StringtoInteger.java)		
