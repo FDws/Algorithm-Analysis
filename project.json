@@ -81,6 +81,10 @@
           "title" : "Palindrome Number",
           "children" : null
         },
+        "RegularExpressionMatching.java" : {
+          "title" : "Regular Expression Matching",
+          "children" : null
+        },
         "ReverseInteger.java" : {
           "title" : "Reverse Integer",
           "children" : null
