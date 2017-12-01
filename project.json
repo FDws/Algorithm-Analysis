@@ -73,6 +73,10 @@
           "title" : "Integer to Roman",
           "children" : null
         },
+        "LongestCommonPrefix.java" : {
+          "title" : "Longest Common Prefix",
+          "children" : null
+        },
         "LongestPalindromicSubstring.java" : {
           "title" : "Longest Palindromic Substring",
           "children" : null
