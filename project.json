@@ -113,6 +113,10 @@
           "title" : "3 SUM",
           "children" : null
         },
+        "SUM3Closest.java" : {
+          "title" : "3 SUM Closest",
+          "children" : null
+        },
         "TwoSum.java" : {
           "title" : "TwoSum",
           "children" : null
