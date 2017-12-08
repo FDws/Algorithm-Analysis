@@ -48,6 +48,8 @@
 
 > [Regular Expression Matching](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RegularExpressionMatching.java)		
 
+> [Remove Nth Node From End of List](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RemoveNthNodeFromEndofList.java)		
+
 > [Reverse Integer](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ReverseInteger.java)		
 
 > [Roman to Integer](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RomantoInteger.java)		
