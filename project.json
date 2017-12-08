@@ -133,6 +133,10 @@
           "title" : "TwoSum",
           "children" : null
         },
+        "ValidParentheses.java" : {
+          "title" : "Valid Parentheses",
+          "children" : null
+        },
         "ZigZagConversion.java" : {
           "title" : "ZigZag Conversion",
           "children" : null
