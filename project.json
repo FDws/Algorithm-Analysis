@@ -69,6 +69,10 @@
           "title" : "Container With Most Water",
           "children" : null
         },
+        "GenerateParentheses.java" : {
+          "title" : "Generate Parentheses",
+          "children" : null
+        },
         "IntegertoRoman.java" : {
           "title" : "Integer to Roman",
           "children" : null

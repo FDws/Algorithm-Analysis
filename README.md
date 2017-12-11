@@ -32,6 +32,8 @@
 
 > [Container With Most Water](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ContainerWithMostWater.java)		
 
+> [Generate Parentheses](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/GenerateParentheses.java)		
+
 > [Integer to Roman](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/IntegertoRoman.java)		
 
 > [Letter Combinatins of a Phone Number](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LetterCombinationsofaPhoneNumber.java)		
