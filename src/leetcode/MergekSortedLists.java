@@ -65,9 +65,9 @@ public class MergekSortedLists {
 	public static void main(String[] args) {
 		MergekSortedLists m = new MergekSortedLists();
 		ListNode[] l = new ListNode[3];
-		// l[0] = m.generatorListNode(new int[] { 1, 3, 8, 8, 9 });
-		// l[1] = m.generatorListNode(new int[] { 0, 0, 4, 9, 18 });
-		// l[2] = m.generatorListNode(new int[] { 0, 1, 10, 19, 28 });
+		 l[0] = m.generatorListNode(new int[] { 1, 3, 8, 8, 9 });
+		 l[1] = m.generatorListNode(new int[] { 0, 0, 4, 9, 18 });
+		 l[2] = m.generatorListNode(new int[] { 0, 1, 10, 19, 28 });
 		System.out.println("Begin...");
 		m.out(m.mergeKLists(l));
 		System.out.println("Done...");
