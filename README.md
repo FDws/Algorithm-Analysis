@@ -46,6 +46,8 @@
 
 > [Median of Two Sorted Arrays](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MedianofTwoSortedArrays.java)		
 
+> [Merge k Sorted Lists](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MergekSortedLists.java)		
+
 > [Merge Two Sorted Lists](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MergeTwoSortedLists.java)		
 
 > [Palindrome Number](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/PalindromeNumber.java)		
@@ -75,6 +77,8 @@
 ## [排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)		
 
 > [冒泡排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/BubbleSort.java)		
+
+> [堆排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/HeapSort.java)		
 
 > [归并排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/MergeSort.java)		
 

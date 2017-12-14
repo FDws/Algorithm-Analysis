@@ -97,6 +97,10 @@
           "title" : "Median of Two Sorted Arrays",
           "children" : null
         },
+        "MergekSortedLists.java" : {
+          "title" : "Merge k Sorted Lists",
+          "children" : null
+        },
         "MergeTwoSortedLists.java" : {
           "title" : "Merge Two Sorted Lists",
           "children" : null
@@ -156,6 +160,10 @@
       "children" : {
         "BubbleSort.java" : {
           "title" : "冒泡排序",
+          "children" : null
+        },
+        "HeapSort.java" : {
+          "title" : "堆排序",
           "children" : null
         },
         "MergeSort.java" : {
