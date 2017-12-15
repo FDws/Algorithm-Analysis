@@ -75,4 +75,23 @@ class ListNode {
 	ListNode(int x) {
 		val = x;
 	}
+
+	public static void out(ListNode l) {
+		ListNode m = l;
+		while (m != null) {
+			System.out.print(m.val + " -> ");
+			m = m.next;
+		}
+		System.out.println();
+	}
+
+	public static ListNode generatorListNode(int[] a) {
+		ListNode head = new ListNode(0);
+		ListNode move = head;
+		for (int x : a) {
+			move.next = new ListNode(x);
+			move = move.next;
+		}
+		return head.next;
+	}
 }
