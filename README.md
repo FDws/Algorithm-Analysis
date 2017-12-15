@@ -68,6 +68,8 @@
 
 > [4 SUM](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SUM4.java)		
 
+> [Swap Nodes in Pairs](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SwapNodesinPairs.java)		
+
 > [TwoSum](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/TwoSum.java)		
 
 > [Valid Parentheses](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ValidParentheses.java)		

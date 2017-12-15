@@ -141,6 +141,10 @@
           "title" : "4 SUM",
           "children" : null
         },
+        "SwapNodesinPairs.java" : {
+          "title" : "Swap Nodes in Pairs",
+          "children" : null
+        },
         "TwoSum.java" : {
           "title" : "TwoSum",
           "children" : null
