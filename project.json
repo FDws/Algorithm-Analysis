@@ -113,6 +113,10 @@
           "title" : "Regular Expression Matching",
           "children" : null
         },
+        "RemoveDuplicatesfromSortedArray.java" : {
+          "title" : "Remove Duplicates from Sorted Array",
+          "children" : null
+        },
         "RemoveNthNodeFromEndofList.java" : {
           "title" : "Remove Nth Node From End of List",
           "children" : null
