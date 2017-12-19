@@ -117,6 +117,10 @@
           "title" : "Remove Duplicates from Sorted Array",
           "children" : null
         },
+        "RemoveElement.java" : {
+          "title" : "",
+          "children" : null
+        },
         "RemoveNthNodeFromEndofList.java" : {
           "title" : "Remove Nth Node From End of List",
           "children" : null

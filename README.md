@@ -56,6 +56,8 @@
 
 > [Remove Duplicates from Sorted Array](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RemoveDuplicatesfromSortedArray.java)		
 
+> [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RemoveElement.java)		
+
 > [Remove Nth Node From End of List](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RemoveNthNodeFromEndofList.java)		
 
 > [Reverse Integer](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ReverseInteger.java)		
