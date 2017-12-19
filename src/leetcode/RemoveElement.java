@@ -3,7 +3,7 @@ package leetcode;
 /**
  * @author FDws
  * @date 2017年12月19日 下午9:35:27
- *
+ * @title Remove Element
  */
 public class RemoveElement {
 	public int removeElement(int[] nums, int val) {
