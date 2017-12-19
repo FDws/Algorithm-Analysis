@@ -73,6 +73,10 @@
           "title" : "Generate Parentheses",
           "children" : null
         },
+        "ImplementstrStr.java" : {
+          "title" : "Implement strStr",
+          "children" : null
+        },
         "IntegertoRoman.java" : {
           "title" : "Integer to Roman",
           "children" : null

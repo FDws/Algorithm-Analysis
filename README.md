@@ -34,6 +34,8 @@
 
 > [Generate Parentheses](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/GenerateParentheses.java)		
 
+> [Implement strStr](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ImplementstrStr.java)		
+
 > [Integer to Roman](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/IntegertoRoman.java)		
 
 > [Letter Combinatins of a Phone Number](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LetterCombinationsofaPhoneNumber.java)		
