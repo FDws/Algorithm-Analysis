@@ -149,6 +149,10 @@
           "title" : "String to Integer (atoi)",
           "children" : null
         },
+        "SubstringwithConcatenationofAllWords.java" : {
+          "title" : "Substring with Concatenation of All Words",
+          "children" : null
+        },
         "SUM3.java" : {
           "title" : "3 SUM",
           "children" : null

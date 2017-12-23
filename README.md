@@ -72,6 +72,8 @@
 
 > [String to Integer (atoi)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/StringtoInteger.java)		
 
+> [Substring with Concatenation of All Words](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SubstringwithConcatenationofAllWords.java)		
+
 > [3 SUM](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SUM3.java)		
 
 > [3 SUM Closest](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SUM3Closest.java)		
