@@ -54,6 +54,8 @@
 
 > [Merge Two Sorted Lists](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MergeTwoSortedLists.java)		
 
+> [Next Permutation](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/NextPermutation.java)		
+
 > [Palindrome Number](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/PalindromeNumber.java)		
 
 > [Regular Expression Matching](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RegularExpressionMatching.java)		
@@ -101,6 +103,12 @@
 > [快速排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/QuickSort.java)		
 
 > [选择排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/SelectionSort.java)		
+
+## [牛顿法开根号](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sqrt)		
+
+> [Newton's methods to calc square root](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sqrt/NewtonSqrt.java)		
+
+> [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sqrt/牛顿法开根号.md)		
 
 ## [工具](https://github.com/FDws/Algorithm-Analysis/tree/master/src/tools)		
 

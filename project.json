@@ -113,6 +113,10 @@
           "title" : "Merge Two Sorted Lists",
           "children" : null
         },
+        "NextPermutation.java" : {
+          "title" : "Next Permutation",
+          "children" : null
+        },
         "PalindromeNumber.java" : {
           "title" : "Palindrome Number",
           "children" : null
@@ -208,6 +212,19 @@
         },
         "SelectionSort.java" : {
           "title" : "选择排序",
+          "children" : null
+        }
+      }
+    },
+    "sqrt" : {
+      "title" : "牛顿法开根号",
+      "children" : {
+        "NewtonSqrt.java" : {
+          "title" : "Newton's methods to calc square root",
+          "children" : null
+        },
+        "牛顿法开根号.md" : {
+          "title" : "",
           "children" : null
         }
       }
