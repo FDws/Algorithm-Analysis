@@ -97,6 +97,10 @@
           "title" : "Longest Palindromic Substring",
           "children" : null
         },
+        "LongestValidParentheses.java" : {
+          "title" : "Longest Valid Parentheses",
+          "children" : null
+        },
         "LSWRC.java" : {
           "title" : "Longest Substring Without Repeating Characters",
           "children" : null
@@ -147,6 +151,10 @@
         },
         "RomantoInteger.java" : {
           "title" : "Roman to Integer",
+          "children" : null
+        },
+        "SearchinRotatedSortedArray.java" : {
+          "title" : "Search in Rotated Sorted Array",
           "children" : null
         },
         "StringtoInteger.java" : {

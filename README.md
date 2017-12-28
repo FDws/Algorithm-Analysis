@@ -46,6 +46,8 @@
 
 > [Longest Palindromic Substring](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LongestPalindromicSubstring.java)		
 
+> [Longest Valid Parentheses](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LongestValidParentheses.java)		
+
 > [Longest Substring Without Repeating Characters](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/LSWRC.java)		
 
 > [Median of Two Sorted Arrays](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/MedianofTwoSortedArrays.java)		
@@ -71,6 +73,8 @@
 > [Reverse Nodes in k-Group](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ReverseNodesink_Group.java)		
 
 > [Roman to Integer](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/RomantoInteger.java)		
+
+> [Search in Rotated Sorted Array](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SearchinRotatedSortedArray.java)		
 
 > [String to Integer (atoi)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/StringtoInteger.java)		
 
