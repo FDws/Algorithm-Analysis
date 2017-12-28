@@ -153,6 +153,10 @@
           "title" : "Roman to Integer",
           "children" : null
         },
+        "SearchforaRange.java" : {
+          "title" : "Search for a Range",
+          "children" : null
+        },
         "SearchinRotatedSortedArray.java" : {
           "title" : "Search in Rotated Sorted Array",
           "children" : null
