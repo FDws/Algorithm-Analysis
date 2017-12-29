@@ -78,6 +78,8 @@
 
 > [Search in Rotated Sorted Array](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SearchinRotatedSortedArray.java)		
 
+> [Search Insert Position](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SearchInsertPosition.java)		
+
 > [String to Integer (atoi)](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/StringtoInteger.java)		
 
 > [Substring with Concatenation of All Words](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SubstringwithConcatenationofAllWords.java)		

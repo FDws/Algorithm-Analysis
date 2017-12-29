@@ -161,6 +161,10 @@
           "title" : "Search in Rotated Sorted Array",
           "children" : null
         },
+        "SearchInsertPosition.java" : {
+          "title" : "Search Insert Position",
+          "children" : null
+        },
         "StringtoInteger.java" : {
           "title" : "String to Integer (atoi)",
           "children" : null
