@@ -84,6 +84,8 @@
 
 > [Substring with Concatenation of All Words](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SubstringwithConcatenationofAllWords.java)		
 
+> [Sudoku Solver](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SudokuSolver.java)		
+
 > [3 SUM](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SUM3.java)		
 
 > [3 SUM Closest](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/SUM3Closest.java)		

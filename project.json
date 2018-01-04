@@ -173,6 +173,10 @@
           "title" : "Substring with Concatenation of All Words",
           "children" : null
         },
+        "SudokuSolver.java" : {
+          "title" : "Sudoku Solver",
+          "children" : null
+        },
         "SUM3.java" : {
           "title" : "3 SUM",
           "children" : null
