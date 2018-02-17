@@ -133,6 +133,10 @@
           "title" : "Merge Two Sorted Lists",
           "children" : null
         },
+        "MultiplyStrings.java" : {
+          "title" : "Multiply Strings",
+          "children" : null
+        },
         "NextPermutation.java" : {
           "title" : "Next Permutation",
           "children" : null

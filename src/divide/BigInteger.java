@@ -1,14 +1,12 @@
 package divide;
 
+import java.util.Arrays;
+
 /**
- * 
  * @author FDws
  * @title 分治法解决大数乘法
  *
  */
-import java.util.Arrays;
-
-
 public class BigInteger {
 
 	public String multi(String inta, String intb) {
@@ -46,7 +44,7 @@ public class BigInteger {
 
 		int len = left.length > right.length ? left.length : right.length;
 		len = len % 2 == 0 ? len : len + 1;
-		/**
+		/*
 		 * cl [m:n] ----------------------------------------------------------
 		 * rl [p:q] ----------------------------------------------------------
 		 * cl*rl = m*p*10^len + [(m+n)*(p+q) - (mp+nq)]*10^(len/2) + nq
