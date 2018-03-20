@@ -10,7 +10,7 @@ import java.math.BigInteger;
  */
 
 public class MultiplyStrings {
-	public String multiply(String inta, String intb) {
+	private String multiply(String inta, String intb) {
 		int[] a;
 		int[] b;
 		int[] r;

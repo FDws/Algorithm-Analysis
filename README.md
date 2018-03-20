@@ -114,6 +114,10 @@
 
 > [ZigZag Conversion](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ZigZagConversion.java)		
 
+## [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode)		
+
+> [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode/HalfSearch.java)		
+
 ## [排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)		
 
 > [冒泡排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort/BubbleSort.java)		
