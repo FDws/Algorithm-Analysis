@@ -4,6 +4,7 @@ package nowcode;
  * 二分查找, 数组从左到右, 从上到下递增, 判断给定的数字是否在数组中
  * @author FDws
  * @date 2018/3/20  22:59
+ * @title 二维数组查找
  */
 
 public class HalfSearch {
