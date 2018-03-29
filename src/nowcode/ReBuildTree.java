@@ -1,5 +1,7 @@
 package nowcode;
 
+import nowcode.node.TreeNode;
+
 import java.util.Arrays;
 
 /**
@@ -11,7 +13,7 @@ import java.util.Arrays;
  */
 
 public class ReBuildTree {
-	public TreeNode reConstructBinaryTree(int[] pri, int[] in) {
+	private TreeNode reConstructBinaryTree(int[] pri, int[] in) {
 		if (pri.length == 0) {
 			return null;
 		}
@@ -36,15 +38,5 @@ public class ReBuildTree {
 
 	public static void main(String[] args) {
 
-	}
-}
-
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode(int x) {
-		this.val = x;
 	}
 }

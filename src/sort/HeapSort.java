@@ -14,7 +14,7 @@ public class HeapSort implements Msort {
 		int[] arry = Arrays.copyOf(array, array.length);
 		buildMaxHeap(arry);
 
-		int temp = 0;
+		int temp;
 		for (int i = 0; i < arry.length - 1; i++) {
 			temp = arry[arry.length - i - 1];
 			arry[arry.length - i - 1] = arry[0];
@@ -30,7 +30,7 @@ public class HeapSort implements Msort {
 		int left = (root << 1) + 1;
 		int right = (root << 1) + 2;
 		int min = root;
-		int temp = 0;
+		int temp;
 
 		if (left < length) {
 			if (arry[min] < arry[left]) {

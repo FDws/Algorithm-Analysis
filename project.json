@@ -238,8 +238,20 @@
     "nowcode" : {
       "title" : "牛客网题目",
       "children" : {
+        "Demo.java" : {
+          "title" : "Square",
+          "children" : null
+        },
         "HalfSearch.java" : {
-          "title" : "",
+          "title" : "二维数组查找",
+          "children" : null
+        },
+        "ReBuildTree.java" : {
+          "title" : "重建二叉树",
+          "children" : null
+        },
+        "ReplaceSpace.java" : {
+          "title" : "空格替换",
           "children" : null
         }
       }

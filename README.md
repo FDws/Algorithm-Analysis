@@ -114,9 +114,15 @@
 
 > [ZigZag Conversion](https://github.com/FDws/Algorithm-Analysis/tree/master/src/leetcode/ZigZagConversion.java)		
 
-## [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode)		
+## [牛客网题目](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode)		
 
-> [](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode/HalfSearch.java)		
+> [Square](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode/Demo.java)		
+
+> [二维数组查找](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode/HalfSearch.java)		
+
+> [重建二叉树](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode/ReBuildTree.java)		
+
+> [空格替换](https://github.com/FDws/Algorithm-Analysis/tree/master/src/nowcode/ReplaceSpace.java)		
 
 ## [排序](https://github.com/FDws/Algorithm-Analysis/tree/master/src/sort)		
 
