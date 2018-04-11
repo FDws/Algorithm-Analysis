@@ -30,8 +30,10 @@ public class RegularExpressionMatching {
 					board[i][j] = board[i - 1][j - 1];
 				} else if (pArry[j - 1] == '*') {
 					if (sArry[i - 1] != pArry[j - 2] && pArry[j - 2] != '.') {
+						//匹配零次
 						board[i][j] = board[i][j - 2];
 					} else {
+					                  //匹配零次          匹配一次           匹配多次
 						board[i][j] = board[i][j - 2] || board[i][j - 1] || board[i - 1][j];
 					}
 				}
